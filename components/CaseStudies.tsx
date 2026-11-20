@@ -14,7 +14,7 @@ export default function CaseStudies() {
       <div className="grid gap-5 md:grid-cols-2">
         {cases.map((item) => <article key={item.title} className="grid overflow-hidden rounded-2xl bg-white/50 sm:grid-cols-2">
           <div className="relative min-h-56"><Image src={`/images/${item.image}`} alt={item.title} fill className="object-cover" /></div>
-          <div className="flex flex-col justify-between bg-[var(--primary)] p-5 text-white"><div><p className="text-sm text-white/70">{item.category}</p><h3 className="mt-3 text-2xl font-semibold">{item.title}</h3></div><Link href="#contact" className="mt-6 inline-flex text-base">Read Case Study ↗</Link></div>
+          <div className="flex flex-col justify-between bg-[var(--primary)] p-5 text-white"><div><p className="text-base text-white/70">{item.category}</p><h3 className="mt-3 text-2xl font-semibold">{item.title}</h3></div><Link href="#contact" className="mt-6 inline-flex text-base">Read Case Study ↗</Link></div>
         </article>)}
       </div>
     </div></section>

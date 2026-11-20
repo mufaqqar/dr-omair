@@ -9,7 +9,7 @@ export default function About() {
           <Image src="/images/about-consultation.svg" alt="Doctor consulting a patient" fill className="object-cover" />
         </div>
         <div>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-[var(--primary)]">Get to know me</p>
+          <p className="mb-3 text-base font-semibold uppercase tracking-widest text-[var(--primary)]">Get to know me</p>
           <h2 className="text-4xl font-semibold md:text-5xl">About Me</h2>
           <p className="mt-5 text-base leading-8 text-[var(--muted)]">Dr. Thomas is an Internal Medicine specialist skilled in diagnosing, treating, and preventing chronic diseases. My goal is to provide personalized care and help every patient achieve better long-term health.</p>
           <Link href="#contact" className="mt-6 inline-flex rounded-lg bg-[var(--primary-dark)] px-5 py-3 text-base text-white">Know More ↗</Link>

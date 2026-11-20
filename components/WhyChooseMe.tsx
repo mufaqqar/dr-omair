@@ -16,7 +16,7 @@ export default function WhyChooseMe() {
           {items.map(([icon, title, desc]) => (
             <div key={title} className="rounded-2xl bg-[var(--primary)] p-6 text-white transition hover:-translate-y-1">
               <div className="mb-5 flex h-10 w-10 items-center justify-center rounded-lg bg-white/20 text-xl">{icon}</div>
-              <h3 className="text-lg font-semibold">{title}</h3><p className="mt-3 text-sm leading-7 text-white/80">{desc}</p>
+              <h3 className="text-lg font-semibold">{title}</h3><p className="mt-3 text-base leading-7 text-white/80">{desc}</p>
             </div>
           ))}
         </div>
