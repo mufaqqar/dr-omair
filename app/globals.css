@@ -1,48 +1,36 @@
-
 @import "tailwindcss";
 
 :root {
-  --primary: #5b45d6;
-  --primary-hover: #4935bd;
-  --secondary: #eeeaff;
-
-  --title: #292900;
-  --desc: #686868;
-
-  --background: #f7f7f8;
-  --white: #ffffff;
-  --border: #e8e8ed;
-
-  --hero-yellow: #fff477;
-  --hero-purple: #c9b9ff;
-  --hero-start: #f0eaff;
-  --hero-end: #fffde1;
+  --background: #e4f2f1;
+  --foreground: #172b30;
+  --primary: #638895;
+  --primary-dark: #294e59;
+  --secondary: #c8dfdf;
+  --card: #ffffff;
+  --muted: #688087;
+  --border: #b8cece;
 }
 
 @theme inline {
-  --color-primary: var(--primary);
-  --color-primary-hover: var(--primary-hover);
-  --color-secondary: var(--secondary);
-
-  --color-title: var(--title);
-  --color-desc: var(--desc);
-
   --color-background: var(--background);
-  --color-white: var(--white);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-secondary: var(--secondary);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
   --color-border: var(--border);
-
-  --color-hero-yellow: var(--hero-yellow);
-  --color-hero-purple: var(--hero-purple);
-  --color-hero-start: var(--hero-start);
-  --color-hero-end: var(--hero-end);
 }
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 body {
   background: var(--background);
-  color: var(--title);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
 }

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="560" viewBox="0 0 720 560" role="img" aria-label="Chronic Care">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d2e5e4"/><stop offset="1" stop-color="#eef5f2"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#779ba5"/><stop offset="1" stop-color="#315b68"/></linearGradient>
+  </defs>
+  <rect width="720" height="560" fill="url(#bg)"/>
+  <circle cx="600" cy="100" r="130" fill="#ffffff" opacity=".25"/>
+  <path d="M0 420 Q160 380 300 420 T720 410 V560 H0Z" fill="#779ba5" opacity=".45"/>
+  <rect x="55" y="75" width="610" height="330" rx="22" fill="#ffffff" opacity=".34"/>
+  <rect x="80" y="100" width="250" height="220" rx="12" fill="#f8fbf8" opacity=".65"/>
+  <path d="M95 280 H310 M105 125 V300 M285 125 V300" stroke="#779ba5" stroke-width="7" opacity=".65"/>
+  <rect x="455" y="115" width="155" height="12" rx="6" fill="#315b68" opacity=".2"/>
+  <rect x="455" y="142" width="115" height="9" rx="4" fill="#315b68" opacity=".15"/>
+  <ellipse cx="360" cy="500" rx="220" ry="25" fill="#315b68" opacity=".15"/>
+  
+      <circle cx="355" cy="190" r="54" fill="#d9a17e"/>
+      <path d="M300 183 Q305 108 365 120 Q414 128 410 192 Q387 158 356 159 Q327 164 300 183" fill="#263b43"/>
+      <path d="M275 520 Q276 315 350 280 Q429 310 449 520Z" fill="#f7f8f5"/>
+      <path d="M324 294 L355 355 L389 294 L420 520 L288 520Z" fill="#ffffff"/>
+      <path d="M355 355 L355 520" stroke="#b7cbca" stroke-width="5"/>
+      <path d="M326 298 Q290 326 285 390" stroke="#456b78" stroke-width="7" fill="none"/>
+      <path d="M389 298 Q421 330 424 390" stroke="#456b78" stroke-width="7" fill="none"/>
+      <path d="M330 300 L355 350 L385 300" fill="none" stroke="#9bb8bd" stroke-width="5"/>
+      <rect x="373" y="340" width="45" height="55" rx="5" fill="#dcebea" stroke="#638895" stroke-width="4"/>
+      <path d="M395 351 v29 M381 365 h28" stroke="#638895" stroke-width="5"/>
+    
+  <rect x="38" y="455" width="250" height="64" rx="14" fill="url(#panel)"/>
+  <text x="58" y="482" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#fff">Chronic Care</text>
+  <text x="58" y="504" font-family="Arial,sans-serif" font-size="12" fill="#e8f3f2">ONGOING HEALTH SUPPORT</text>
+</svg>
