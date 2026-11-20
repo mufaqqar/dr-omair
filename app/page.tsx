@@ -13,7 +13,7 @@ import WhyChooseMe from "@/components/WhyChooseMe";
 
 export default function Home() {
   return (
-   <main className="min-h-screen overflow-hidden bg-[var(--background)] text-[var(--foreground)]">
+    <main className="min-h-screen overflow-hidden bg-[var(--background)] text-[var(--foreground)]">
       <HeroSection />
       <About />
       <WhyChooseMe />
@@ -26,6 +26,6 @@ export default function Home() {
       <Testimonials />
       <Articles />
       <Newsletter />
-         </main>
+    </main>
   );
 }
